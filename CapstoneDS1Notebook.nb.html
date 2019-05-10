@@ -1767,26 +1767,232 @@ $(document).ready(function () {
 
 
 <!-- rnb-text-begin -->
-<p>This is an <a href="http://rmarkdown.rstudio.com">R Markdown</a> Notebook. When you execute code within the notebook, the results appear beneath the code.</p>
-<p>Try executing this chunk by clicking the <em>Run</em> button within the chunk or by placing your cursor inside it and pressing <em>Ctrl+Shift+Enter</em>.</p>
+<p>This is a test session of the course DAT102x: Predicting Mortgage Approvals From Government Data to prepare for the next challenge. The goal is to train a model on the data with an accuracy of 0,71.</p>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuI2dpdCBjb25maWcgLS1nbG9iYWwgdXNlci5uYW1lIFwiRXZhIFdpbGhlbG1zc29uXCJcbmdpdCBjb25maWcgLS1nbG9iYWwgLS1saXN0XG5cbmBgYCJ9 -->
-<pre class="r"><code>#git config --global user.name &quot;Eva Wilhelmsson&quot;
-git config --global --list
+<!-- rnb-frame-begin eyJtZXRhZGF0YSI6eyJjbGFzc2VzIjpbImRhdGEuZnJhbWUiXSwibmNvbCI6MjIsIm5yb3ciOjZ9LCJyZGYiOiJINHNJQUFBQUFBQUFCb1ZWeld2VVFCU2YzZTJ1YkdwcnRkS3FVRUZFRWFRci9SQVZFUUlWYWFHSWlvZFZoT3gwZGxhRHlVeE1KbTMzVmk4cUtOYUxnaUpZcTMrQ3FIZ1EwUjZySHIwb2VCTUVSVkI3RWRTWHpFdzJHeW9HWG44enYvYzE3ODJiN1luRDFSR2phaUNFQ3FoUWdyOUZXS0xTMkxHaDRiM0RDSFhrWVpkREhhZ2M0U3pvZTJIUkI5SVZtU0g1NVVEeWNRandBQ21tOUlXVVBwY1NyYy85UTlMNlFpcU8zdi9Qdnp2U204Zm40Z09hRFZOaXZTYVJLQXg2Sk5ZV1ZDbHQ1MDduMVd1dDN3RDBCVUFJa0JzQzNBVHlJYVhmQVRJS0VyVjJqOXAzcGZRcjRMY2JCSnFNSG9Gc0JObVgwdXQrNVRPaTljV01GREo5ei9aRCs4dSs3SmZGbXBPcVA4ZGVTRHl0K25SYzdTZm1kRitrMzlPRGtuOThYZUtUTnhLZmRTcWNWUHp6ZHI4akE5NkRkOFloYzgvYk03dCt2cHczank3T3crS1Z1ZW5YSitmcTJDM3psRHBQNy9pakE5V2VxY1R2eTgzNEFPYm5wZmlDekc5WHZCaS83NVQ0ZGJrVzQ0K1JHMjM1Sm1ZZzdNMkxTZHdzbnJ5MkROOXJzN3A5SlBvU3YwczFxYjlkbFhoWjllSGVRNG0zUGtxOGU2Mjl2b2RLdnpBcjhZYUtjMzlGMmIrWHVEaXUvZFE5clgrS1VQa09QS21qQ1BVRGxkc0dWN2tFc3RvOXB0NVEyOE1zT1hTYU9nR0tweEdzSkZzOGdwMkFxazNIU1Qra0diY2ljWENndlpKWURVd0U5MkgxTzJ2T3NFdTFlWjgyOS9tTVpkZlZydXh3ekN6UjlIVGFMcy9uSHZWRk0wMnVqYTI4MFBkNGNyNHlKeVQwTUNOTlJYVEdSdGpsSVJPYThueUtQWWc0alIyZDNnMnc1ZXIwUmlDd29CYmhkUjIyazBUK3pUVFZDeUVjbTJBbUxDck9NWnZZUXVmc2JxbDhUSklhV214QVp4WFoweUp0UnJpcmpRMlBlNkdEaGMyWll2cGRtM0Vma2xndGxlVVJYZFRtUnNPbXhLVjFHOHB0WU5kMm11MFJ0d2c0aTdBRXQyU3RTcHNLc1pXRjdoVDFMZDZ3K0F5amZpWHVwVTNyVnNoc0VTaXJnWmJWVUJSdFZHZExHOEVrc1RyMTlVVVJiaVYxWnFhaERCZGYwUk1SRFd0K1RnNTJTUm9XL21RR3k2aGpnU3NOSDF4V0dhNDEzSXNhQThIeTBYK1lZc1k1NTJlSWRTR0xrdGNIeWJtUW5SK01ma1dOMUV2cFVsaEtyZnRreWc1OXNLS3VtYkt6TnRQdExqcDRpdXJ4Nm9ZaTR4b3JubThuYzJnQUcxUUVGOGtZR29RN21vbHJRNy8vQW5wYWV1bFpCd0FBIn0= -->
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["row_id"],"name":[1],"type":["int"],"align":["right"]},{"label":["loan_type"],"name":[2],"type":["int"],"align":["right"]},{"label":["property_type"],"name":[3],"type":["int"],"align":["right"]},{"label":["loan_purpose"],"name":[4],"type":["int"],"align":["right"]},{"label":["occupancy"],"name":[5],"type":["int"],"align":["right"]},{"label":["loan_amount"],"name":[6],"type":["dbl"],"align":["right"]},{"label":["preapproval"],"name":[7],"type":["int"],"align":["right"]},{"label":["msa_md"],"name":[8],"type":["int"],"align":["right"]},{"label":["state_code"],"name":[9],"type":["int"],"align":["right"]},{"label":["county_code"],"name":[10],"type":["int"],"align":["right"]},{"label":["applicant_ethnicity"],"name":[11],"type":["int"],"align":["right"]},{"label":["applicant_race"],"name":[12],"type":["int"],"align":["right"]},{"label":["applicant_sex"],"name":[13],"type":["int"],"align":["right"]},{"label":["applicant_income"],"name":[14],"type":["dbl"],"align":["right"]},{"label":["population"],"name":[15],"type":["dbl"],"align":["right"]},{"label":["minority_population_pct"],"name":[16],"type":["dbl"],"align":["right"]},{"label":["ffiecmedian_family_income"],"name":[17],"type":["dbl"],"align":["right"]},{"label":["tract_to_msa_md_income_pct"],"name":[18],"type":["dbl"],"align":["right"]},{"label":["number_of_owner.occupied_units"],"name":[19],"type":["dbl"],"align":["right"]},{"label":["number_of_1_to_4_family_units"],"name":[20],"type":["dbl"],"align":["right"]},{"label":["lender"],"name":[21],"type":["int"],"align":["right"]},{"label":["co_applicant"],"name":[22],"type":["fctr"],"align":["left"]}],"data":[{"1":"0","2":"3","3":"1","4":"1","5":"1","6":"70","7":"3","8":"18","9":"37","10":"246","11":"2","12":"5","13":"1","14":"24","15":"6203","16":"44.230","17":"60588","18":"50.933","19":"716","20":"2642","21":"4536","22":"False","_rn_":"1"},{"1":"1","2":"1","3":"1","4":"3","5":"1","6":"178","7":"3","8":"369","9":"52","10":"299","11":"1","12":"5","13":"1","14":"57","15":"5774","16":"15.905","17":"54821","18":"100.000","19":"1622","20":"2108","21":"2458","22":"False","_rn_":"2"},{"1":"2","2":"2","3":"1","4":"3","5":"1","6":"163","7":"3","8":"16","9":"10","10":"306","11":"2","12":"5","13":"1","14":"67","15":"6094","16":"61.270","17":"67719","18":"100.000","19":"760","20":"1048","21":"5710","22":"False","_rn_":"3"},{"1":"3","2":"1","3":"1","4":"1","5":"1","6":"155","7":"1","8":"305","9":"47","10":"180","11":"2","12":"5","13":"1","14":"105","15":"6667","16":"6.246","17":"78439","18":"100.000","19":"2025","20":"2299","21":"5888","22":"True","_rn_":"4"},{"1":"4","2":"1","3":"1","4":"1","5":"1","6":"305","7":"3","8":"24","9":"37","10":"20","11":"2","12":"3","13":"2","14":"71","15":"6732","16":"100.000","17":"63075","18":"82.200","19":"1464","20":"1847","21":"289","22":"False","_rn_":"5"},{"1":"5","2":"1","3":"1","4":"3","5":"1","6":"133","7":"3","8":"221","9":"13","10":"55","11":"2","12":"5","13":"2","14":"51","15":"6078","16":"4.821","17":"82745","18":"96.550","19":"1827","20":"2340","21":"964","22":"False","_rn_":"6"}],"options":{"columns":{"min":{},"max":[10],"total":[22]},"rows":{"min":[10],"max":[10],"total":[6]},"pages":{}}}
+  </script>
+</div>
+<!-- rnb-frame-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuRGF0YUV4cGxvcmVyOjpjcmVhdGVfcmVwb3J0KHRyYWluX3ZhbHVlc19tb3J0Z2FnZSlcblxuYGBgIn0= -->
+<pre class="r"><code>DataExplorer::create_report(train_values_mortgage)
 </code></pre>
 <!-- rnb-source-end -->
-<!-- rnb-output-begin eyJkYXRhIjoiRXJyb3I6IHVuZXhwZWN0ZWQgc3ltYm9sIGluIFwiZ2l0IGNvbmZpZ1wiXG4ifQ== -->
-<pre><code>Error: unexpected symbol in &quot;git config&quot;</code></pre>
+<!-- rnb-output-begin eyJkYXRhIjoiXG5cbnByb2Nlc3NpbmcgZmlsZTogcmVwb3J0LnJtZFxuIn0= -->
+<pre><code>
+
+processing file: report.rmd</code></pre>
+<!-- rnb-output-end -->
+<!-- rnb-output-begin eyJkYXRhIjoiXG4gIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8ICAgMCVcbiAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gIHwuLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgICAyJVxuICAgaW5saW5lIFIgY29kZSBmcmFnbWVudHNcblxuXG4gIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICB8Li4uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8ICAgNSVcbmxhYmVsOiBnbG9iYWxfb3B0aW9ucyAod2l0aCBvcHRpb25zKSBcbkxpc3Qgb2YgMVxuICQgaW5jbHVkZTogbG9naSBGQUxTRVxuXG5cbiAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gIHwuLi4uLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgICA3JVxuICBvcmRpbmFyeSB0ZXh0IHdpdGhvdXQgUiBjb2RlXG5cblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCAgMTAlXG5sYWJlbDogaW50cm9kdWNlXG5cbiAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gIHwuLi4uLi4uLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgIDEyJVxuICBvcmRpbmFyeSB0ZXh0IHdpdGhvdXQgUiBjb2RlXG5cblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCAgMTQlXG5sYWJlbDogcGxvdF9pbnRyb1xuXG4gIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICB8Li4uLi4uLi4uLi4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8ICAxNyVcbiAgb3JkaW5hcnkgdGV4dCB3aXRob3V0IFIgY29kZVxuXG5cbiAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gIHwuLi4uLi4uLi4uLi4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgIDE5JVxubGFiZWw6IGRhdGFfc3RydWN0dXJlXG5cbiAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gIHwuLi4uLi4uLi4uLi4uLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgIDIxJVxuICBvcmRpbmFyeSB0ZXh0IHdpdGhvdXQgUiBjb2RlXG5cblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLi4uLi4uLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCAgMjQlXG5sYWJlbDogbWlzc2luZ19wcm9maWxlXG5cbiAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gIHwuLi4uLi4uLi4uLi4uLi4uLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgIDI2JVxuICBvcmRpbmFyeSB0ZXh0IHdpdGhvdXQgUiBjb2RlXG5cblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLi4uLi4uLi4uLi4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCAgMjklXG5sYWJlbDogdW5pdmFyaWF0ZV9kaXN0cmlidXRpb25faGVhZGVyXG5cbiAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gIHwuLi4uLi4uLi4uLi4uLi4uLi4uLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgIDMxJVxuICBvcmRpbmFyeSB0ZXh0IHdpdGhvdXQgUiBjb2RlXG5cblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLi4uLi4uLi4uLi4uLi4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCAgMzMlXG5sYWJlbDogcGxvdF9oaXN0b2dyYW1cblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCAgMzYlXG4gIG9yZGluYXJ5IHRleHQgd2l0aG91dCBSIGNvZGVcblxuXG4gIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICB8Li4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8ICAzOCVcbmxhYmVsOiBwbG90X2RlbnNpdHlcblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCAgNDAlXG4gIG9yZGluYXJ5IHRleHQgd2l0aG91dCBSIGNvZGVcblxuXG4gIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICB8Li4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8ICA0MyVcbmxhYmVsOiBwbG90X2ZyZXF1ZW5jeV9iYXJcblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCAgNDUlXG4gIG9yZGluYXJ5IHRleHQgd2l0aG91dCBSIGNvZGVcblxuXG4gIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICB8Li4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8ICA0OCVcbmxhYmVsOiBwbG90X3Jlc3BvbnNlX2JhclxuXG4gIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICB8Li4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8ICA1MCVcbiAgb3JkaW5hcnkgdGV4dCB3aXRob3V0IFIgY29kZVxuXG5cbiAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gIHwuLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgIDUyJVxubGFiZWw6IHBsb3Rfd2l0aF9iYXJcblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCAgNTUlXG4gIG9yZGluYXJ5IHRleHQgd2l0aG91dCBSIGNvZGVcblxuXG4gIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICB8Li4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAgICAgICAgICAgICAgICAgICAgICAgICAgICB8ICA1NyVcbmxhYmVsOiBwbG90X25vcm1hbF9xcVxuXG4gIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICB8Li4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uICAgICAgICAgICAgICAgICAgICAgICAgICB8ICA2MCVcbiAgb3JkaW5hcnkgdGV4dCB3aXRob3V0IFIgY29kZVxuXG5cbiAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gIHwuLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uICAgICAgICAgICAgICAgICAgICAgICAgIHwgIDYyJVxubGFiZWw6IHBsb3RfcmVzcG9uc2VfcXFcblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAgICAgICAgICAgICAgICAgICAgICAgfCAgNjQlXG4gIG9yZGluYXJ5IHRleHQgd2l0aG91dCBSIGNvZGVcblxuXG4gIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICB8Li4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAgICAgICAgICAgICAgICAgICAgICB8ICA2NyVcbmxhYmVsOiBwbG90X2J5X3FxXG5cbiAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gIHwuLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4gICAgICAgICAgICAgICAgICAgIHwgIDY5JVxuICBvcmRpbmFyeSB0ZXh0IHdpdGhvdXQgUiBjb2RlXG5cblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4gICAgICAgICAgICAgICAgICAgfCAgNzElXG5sYWJlbDogY29ycmVsYXRpb25fYW5hbHlzaXNcblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAgICAgICAgICAgICAgICAgfCAgNzQlXG4gIG9yZGluYXJ5IHRleHQgd2l0aG91dCBSIGNvZGVcblxuXG4gIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICB8Li4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4gICAgICAgICAgICAgICB8ICA3NiVcbmxhYmVsOiBwcmluY2lwYWxfY29tcG9uZW50X2FuYWx5c2lzXG5cbiAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gIHwuLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4gICAgICAgICAgICAgIHwgIDc5JVxuICBvcmRpbmFyeSB0ZXh0IHdpdGhvdXQgUiBjb2RlXG5cblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uICAgICAgICAgICAgfCAgODElXG5sYWJlbDogYml2YXJpYXRlX2Rpc3RyaWJ1dGlvbl9oZWFkZXJcblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAgICAgICAgICAgfCAgODMlXG4gIG9yZGluYXJ5IHRleHQgd2l0aG91dCBSIGNvZGVcblxuXG4gIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICB8Li4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4gICAgICAgICB8ICA4NiVcbmxhYmVsOiBwbG90X3Jlc3BvbnNlX2JveHBsb3RcblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAgICAgICAgfCAgODglXG4gIG9yZGluYXJ5IHRleHQgd2l0aG91dCBSIGNvZGVcblxuXG4gIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICB8Li4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4gICAgICB8ICA5MCVcbmxhYmVsOiBwbG90X2J5X2JveHBsb3RcblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLiAgICAgfCAgOTMlXG4gIG9yZGluYXJ5IHRleHQgd2l0aG91dCBSIGNvZGVcblxuXG4gIHwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICB8Li4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4gICB8ICA5NSVcbmxhYmVsOiBwbG90X3Jlc3BvbnNlX3NjYXR0ZXJwbG90XG5cbiAgfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gIHwuLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4gIHwgIDk4JVxuICBvcmRpbmFyeSB0ZXh0IHdpdGhvdXQgUiBjb2RlXG5cblxuICB8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgfC4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4ufCAxMDAlXG5sYWJlbDogcGxvdF9ieV9zY2F0dGVycGxvdFxuXG5cIkM6L1Byb2dyYW0gRmlsZXMvUlN0dWRpby9iaW4vcGFuZG9jL3BhbmRvY1wiICtSVFMgLUs1MTJtIC1SVFMgXCJDOi9Vc2Vycy9ldmEud2lsaGVsbXNzb24vRG9jdW1lbnRzL0NhcHN0b25lRFMxL3JlcG9ydC51dGY4Lm1kXCIgLS10byBodG1sNCAtLWZyb20gbWFya2Rvd24rYXV0b2xpbmtfYmFyZV91cmlzK2FzY2lpX2lkZW50aWZpZXJzK3RleF9tYXRoX3NpbmdsZV9iYWNrc2xhc2grc21hcnQgLS1vdXRwdXQgcGFuZG9jNDY3ODNjZTA0YmNlLmh0bWwgLS1lbWFpbC1vYmZ1c2NhdGlvbiBub25lIC0tc2VsZi1jb250YWluZWQgLS1zdGFuZGFsb25lIC0tc2VjdGlvbi1kaXZzIC0tdGFibGUtb2YtY29udGVudHMgLS10b2MtZGVwdGggNiAtLXRlbXBsYXRlIFwiQzpcXFVzZXJzXFxldmEud2lsaGVsbXNzb25cXERvY3VtZW50c1xcUlxcd2luLWxpYnJhcnlcXDMuNlxccm1hcmtkb3duXFxybWRcXGhcXGRlZmF1bHQuaHRtbFwiIC0tbm8taGlnaGxpZ2h0IC0tdmFyaWFibGUgaGlnaGxpZ2h0anM9MSAtLXZhcmlhYmxlIFwidGhlbWU6eWV0aVwiIC0taW5jbHVkZS1pbi1oZWFkZXIgXCJDOlxcVXNlcnNcXEVWQX4xLldJTFxcQXBwRGF0YVxcTG9jYWxcXFRlbXBcXFJ0bXBPaTJMUjhcXHJtYXJrZG93bi1zdHI0Njc4NTE2ODYyYjcuaHRtbFwiIC0tbWF0aGpheCAtLXZhcmlhYmxlIFwibWF0aGpheC11cmw6aHR0cHM6Ly9tYXRoamF4LnJzdHVkaW8uY29tL2xhdGVzdC9NYXRoSmF4LmpzP2NvbmZpZz1UZVgtQU1TLU1NTF9IVE1Mb3JNTUxcIiBcbiJ9 -->
+<pre><code>
+  |                                                                       
+  |                                                                 |   0%
+  |                                                                       
+  |..                                                               |   2%
+   inline R code fragments
+
+
+  |                                                                       
+  |...                                                              |   5%
+label: global_options (with options) 
+List of 1
+ $ include: logi FALSE
+
+
+  |                                                                       
+  |.....                                                            |   7%
+  ordinary text without R code
+
+
+  |                                                                       
+  |......                                                           |  10%
+label: introduce
+
+  |                                                                       
+  |........                                                         |  12%
+  ordinary text without R code
+
+
+  |                                                                       
+  |.........                                                        |  14%
+label: plot_intro
+
+  |                                                                       
+  |...........                                                      |  17%
+  ordinary text without R code
+
+
+  |                                                                       
+  |............                                                     |  19%
+label: data_structure
+
+  |                                                                       
+  |..............                                                   |  21%
+  ordinary text without R code
+
+
+  |                                                                       
+  |...............                                                  |  24%
+label: missing_profile
+
+  |                                                                       
+  |.................                                                |  26%
+  ordinary text without R code
+
+
+  |                                                                       
+  |...................                                              |  29%
+label: univariate_distribution_header
+
+  |                                                                       
+  |....................                                             |  31%
+  ordinary text without R code
+
+
+  |                                                                       
+  |......................                                           |  33%
+label: plot_histogram
+
+  |                                                                       
+  |.......................                                          |  36%
+  ordinary text without R code
+
+
+  |                                                                       
+  |.........................                                        |  38%
+label: plot_density
+
+  |                                                                       
+  |..........................                                       |  40%
+  ordinary text without R code
+
+
+  |                                                                       
+  |............................                                     |  43%
+label: plot_frequency_bar
+
+  |                                                                       
+  |.............................                                    |  45%
+  ordinary text without R code
+
+
+  |                                                                       
+  |...............................                                  |  48%
+label: plot_response_bar
+
+  |                                                                       
+  |................................                                 |  50%
+  ordinary text without R code
+
+
+  |                                                                       
+  |..................................                               |  52%
+label: plot_with_bar
+
+  |                                                                       
+  |....................................                             |  55%
+  ordinary text without R code
+
+
+  |                                                                       
+  |.....................................                            |  57%
+label: plot_normal_qq
+
+  |                                                                       
+  |.......................................                          |  60%
+  ordinary text without R code
+
+
+  |                                                                       
+  |........................................                         |  62%
+label: plot_response_qq
+
+  |                                                                       
+  |..........................................                       |  64%
+  ordinary text without R code
+
+
+  |                                                                       
+  |...........................................                      |  67%
+label: plot_by_qq
+
+  |                                                                       
+  |.............................................                    |  69%
+  ordinary text without R code
+
+
+  |                                                                       
+  |..............................................                   |  71%
+label: correlation_analysis
+
+  |                                                                       
+  |................................................                 |  74%
+  ordinary text without R code
+
+
+  |                                                                       
+  |..................................................               |  76%
+label: principal_component_analysis
+
+  |                                                                       
+  |...................................................              |  79%
+  ordinary text without R code
+
+
+  |                                                                       
+  |.....................................................            |  81%
+label: bivariate_distribution_header
+
+  |                                                                       
+  |......................................................           |  83%
+  ordinary text without R code
+
+
+  |                                                                       
+  |........................................................         |  86%
+label: plot_response_boxplot
+
+  |                                                                       
+  |.........................................................        |  88%
+  ordinary text without R code
+
+
+  |                                                                       
+  |...........................................................      |  90%
+label: plot_by_boxplot
+
+  |                                                                       
+  |............................................................     |  93%
+  ordinary text without R code
+
+
+  |                                                                       
+  |..............................................................   |  95%
+label: plot_response_scatterplot
+
+  |                                                                       
+  |...............................................................  |  98%
+  ordinary text without R code
+
+
+  |                                                                       
+  |.................................................................| 100%
+label: plot_by_scatterplot
+
+&quot;C:/Program Files/RStudio/bin/pandoc/pandoc&quot; +RTS -K512m -RTS &quot;C:/Users/eva.wilhelmsson/Documents/CapstoneDS1/report.utf8.md&quot; --to html4 --from markdown+autolink_bare_uris+ascii_identifiers+tex_math_single_backslash+smart --output pandoc46783ce04bce.html --email-obfuscation none --self-contained --standalone --section-divs --table-of-contents --toc-depth 6 --template &quot;C:\Users\eva.wilhelmsson\Documents\R\win-library\3.6\rmarkdown\rmd\h\default.html&quot; --no-highlight --variable highlightjs=1 --variable &quot;theme:yeti&quot; --include-in-header &quot;C:\Users\EVA~1.WIL\AppData\Local\Temp\RtmpOi2LR8\rmarkdown-str4678516862b7.html&quot; --mathjax --variable &quot;mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&quot; </code></pre>
 <!-- rnb-output-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
-<p>Add a new chunk by clicking the <em>Insert Chunk</em> button on the toolbar or by pressing <em>Ctrl+Alt+I</em>.</p>
-<p>When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the <em>Preview</em> button or press <em>Ctrl+Shift+K</em> to preview the HTML file).</p>
-<p>The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike <em>Knit</em>, <em>Preview</em> does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.</p>
 <!-- rnb-text-end -->
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIkNhcHN0b25lIERhdGEgU2NpZW5jZSBwcm9qZWN0Ig0Kb3V0cHV0OiBodG1sX25vdGVib29rDQotLS0NCg0KVGhpcyBpcyBhbiBbUiBNYXJrZG93bl0oaHR0cDovL3JtYXJrZG93bi5yc3R1ZGlvLmNvbSkgTm90ZWJvb2suIFdoZW4geW91IGV4ZWN1dGUgY29kZSB3aXRoaW4gdGhlIG5vdGVib29rLCB0aGUgcmVzdWx0cyBhcHBlYXIgYmVuZWF0aCB0aGUgY29kZS4gDQoNClRyeSBleGVjdXRpbmcgdGhpcyBjaHVuayBieSBjbGlja2luZyB0aGUgKlJ1biogYnV0dG9uIHdpdGhpbiB0aGUgY2h1bmsgb3IgYnkgcGxhY2luZyB5b3VyIGN1cnNvciBpbnNpZGUgaXQgYW5kIHByZXNzaW5nICpDdHJsK1NoaWZ0K0VudGVyKi4gDQoNCmBgYHtyfQ0KI2dpdCBjb25maWcgLS1nbG9iYWwgdXNlci5uYW1lICJFdmEgV2lsaGVsbXNzb24iDQpnaXQgY29uZmlnIC0tZ2xvYmFsIC0tbGlzdA0KYGBgDQoNCkFkZCBhIG5ldyBjaHVuayBieSBjbGlja2luZyB0aGUgKkluc2VydCBDaHVuayogYnV0dG9uIG9uIHRoZSB0b29sYmFyIG9yIGJ5IHByZXNzaW5nICpDdHJsK0FsdCtJKi4NCg0KV2hlbiB5b3Ugc2F2ZSB0aGUgbm90ZWJvb2ssIGFuIEhUTUwgZmlsZSBjb250YWluaW5nIHRoZSBjb2RlIGFuZCBvdXRwdXQgd2lsbCBiZSBzYXZlZCBhbG9uZ3NpZGUgaXQgKGNsaWNrIHRoZSAqUHJldmlldyogYnV0dG9uIG9yIHByZXNzICpDdHJsK1NoaWZ0K0sqIHRvIHByZXZpZXcgdGhlIEhUTUwgZmlsZSkuDQoNClRoZSBwcmV2aWV3IHNob3dzIHlvdSBhIHJlbmRlcmVkIEhUTUwgY29weSBvZiB0aGUgY29udGVudHMgb2YgdGhlIGVkaXRvci4gQ29uc2VxdWVudGx5LCB1bmxpa2UgKktuaXQqLCAqUHJldmlldyogZG9lcyBub3QgcnVuIGFueSBSIGNvZGUgY2h1bmtzLiBJbnN0ZWFkLCB0aGUgb3V0cHV0IG9mIHRoZSBjaHVuayB3aGVuIGl0IHdhcyBsYXN0IHJ1biBpbiB0aGUgZWRpdG9yIGlzIGRpc3BsYXllZC4NCg==</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIkNhcHN0b25lIERhdGEgU2NpZW5jZSBwcm9qZWN0Ig0Kb3V0cHV0OiBodG1sX25vdGVib29rDQotLS0NCg0KVGhpcyBpcyBhIHRlc3Qgc2Vzc2lvbiBvZiB0aGUgY291cnNlIERBVDEwMng6IFByZWRpY3RpbmcgTW9ydGdhZ2UgQXBwcm92YWxzIEZyb20gR292ZXJubWVudCBEYXRhIHRvIHByZXBhcmUgZm9yIHRoZSBuZXh0IGNoYWxsZW5nZS4gVGhlIGdvYWwgaXMgdG8gdHJhaW4gYSBtb2RlbCBvbiB0aGUgZGF0YSB3aXRoIGFuIGFjY3VyYWN5IG9mIDAsNzEuIA0KDQpgYGB7cn0NCmhlYWQodHJhaW5fdmFsdWVzX21vcnRnYWdlKQ0KYGBgDQoNCg0KYGBge3J9DQpzdHIodHJhaW5fdmFsdWVzX21vcnRnYWdlKQ0KDQppbnN0YWxsLnBhY2thZ2VzKCJEYXRhRXhwbG9yZXIiKQ0KDQpEYXRhRXhwbG9yZXI6OmludHJvZHVjZSh0cmFpbl92YWx1ZXNfbW9ydGdhZ2UpDQpEYXRhRXhwbG9yZXI6OmNyZWF0ZV9yZXBvcnQodHJhaW5fdmFsdWVzX21vcnRnYWdlKQ0KYGBgDQoNCg0K</div>
 
 
 
